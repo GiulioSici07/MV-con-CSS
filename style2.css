@@ -1,0 +1,36 @@
+h1 {text-align: center;
+                color: black;
+            }
+            p{color : white;}
+            a{color: white;}
+            .navbar {
+                display: flex;
+                background-color: #161515;
+                padding: 0.5;
+                justify-content: left; 
+                /*Posizione fissa*/
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+            }
+            
+            .navbar a {
+                text-decoration: none;
+                color: #fff;
+                padding: 20px 15px;
+                margin: 1rem 1rem;
+                background-color: #292828;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+                line-height: 80%;
+            }
+
+            .navbar a:hover {
+                background-color: #777;
+            }
+            .content {
+                padding: 2rem;
+                /* Spazio per la navbar fissa */
+                margin-top: 4rem; /* Altezza navbar orizzontale */
+            }
